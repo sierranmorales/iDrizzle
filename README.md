@@ -1,2 +1,2 @@
 # iDrizzle
-Adapting the iDrizzle image subtraction algorithm to Nancy Grace Roman Space Telescope simulated data
+Adapting the iDrizzle image subtraction algorithm to Nancy Grace Roman Space Telescope simulated images
