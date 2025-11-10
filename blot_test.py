@@ -157,21 +157,11 @@ def new_drz(flc_inputs, drc_output, samples_per_drc_pixel = 4):
 if __name__ == "__main__":
     from astropy.io import fits 
 
-    drc_input = "/Users/sierra/Documents/GitHub/iDrizzle/sum0.fits"
-    flc_output = "/Users/sierra/Documents/GitHub/iDrizzle/Archive/icqt94a9q_flt.fits"
+    drc_input = "/sum0.fits"
+    flc_output = "/Archive/icqt94a9q_flt.fits"
 
     samples_per_flc_pixel = 4
     mapped_image = new_blot(drc_input, flc_output, samples_per_flc_pixel)
     fits.writeto("blotted_image.fits", mapped_image, overwrite=True)
 
-    
-    """
-    flc_input = ["/Users/drubin/Downloads/icqt94a9q_flt.fits", "/Users/drubin/Downloads/icqt94zcq_flt.fits", "/Users/drubin/Downloads/icqt96suq_flt.fits",
-                 "/Users/drubin/Downloads/icqt94ywq_flt.fits", "/Users/drubin/Downloads/icqt96shq_flt.fits", "/Users/drubin/Downloads/icqt96t1q_flt.fits",
-                 "/Users/drubin/Downloads/icqt94z2q_flt.fits", "/Users/drubin/Downloads/icqt96snq_flt.fits"]
-    drc_output = "/Users/drubin/Downloads/sum0.fits"
-
-    samples_per_drc_pixel = 1
-    drizzled_image = new_drz(flc_input, drc_output, samples_per_drc_pixel)
-    fits.writeto("drizzled_image.fits", drizzled_image, overwrite=True)
-    """
+  
