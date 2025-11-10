@@ -13,7 +13,7 @@ from scipy.ndimage import map_coordinates
 ############################
 
 # Point to the folder where you downloaded the Roman FITS images
-archive_dir = "/Users/sierra/Documents/GitHub/iDrizzle/downloads"
+archive_dir = "/downloads"
 
 # Settings
 r_in = 1200
