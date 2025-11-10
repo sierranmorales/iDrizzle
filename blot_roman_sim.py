@@ -13,7 +13,7 @@ from blot_test import new_blot, new_drz
 ########################################
 
 # Folder that contains your *smaller* simulated images
-archive_dir = "/Users/sierra/Documents/GitHub/iDrizzle/sim_wcs_dithers"
+archive_dir = "/sim_wcs_dithers"
 
 # These should now be your small simulated frames
 input_list = sorted(glob.glob(os.path.join(archive_dir, "*.fits")))
