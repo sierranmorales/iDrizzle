@@ -12,7 +12,7 @@ from scipy.ndimage import map_coordinates
 ############################
 
 # Define archive directory containing input FLT images
-archive_dir = "/Users/sierra/Documents/GitHub/iDrizzle/Archive"
+archive_dir = "/Archive"
 
 # Settings
 # Set Fourier filtering mask radii
